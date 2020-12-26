@@ -1,5 +1,9 @@
 pipeline {
   agent any
+  tools{
+    maven 'Maven'
+  
+  }
   stages {
     stage('Build') {
       steps {
@@ -7,7 +11,7 @@ pipeline {
         /*
         build 'testmvn'
       */
-        mvn clean install
+        maven clean install
       }
     }
     stage('Test') {

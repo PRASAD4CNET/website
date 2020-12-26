@@ -14,7 +14,7 @@ pipeline {
     stage('Pushing war to s3') {
       steps {
         echo 'Pushing war to s3..'
-        sh 'aws --help'
+        sh 'aws help'
       }
     }
     stage('Deploy') {

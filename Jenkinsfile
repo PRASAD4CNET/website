@@ -11,7 +11,7 @@ pipeline {
         /*
         build 'testmvn'
       */
-        mvn clean install
+        //mvn clean install
       }
     }
     stage('Test') {

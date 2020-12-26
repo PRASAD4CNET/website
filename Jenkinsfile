@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building..'
-        sh 'mvn clean install'
+        sh '/opt/maven/apache-maven-3.6.3/bin/mvn clean install'
       
         //build 'testmvn'
       

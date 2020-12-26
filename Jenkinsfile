@@ -11,9 +11,10 @@ pipeline {
       
       }
     }
-    stage('Test') {
+    stage('Pushing war to s3') {
       steps {
-        echo 'Testing..'
+        echo 'Pushing war to s3..'
+        sh 'aws --help'
       }
     }
     stage('Deploy') {

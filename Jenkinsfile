@@ -1,13 +1,10 @@
 pipeline {
   agent any
-  tools{
-    maven 'Maven'
-  
-  }
   stages {
     stage('Build') {
       steps {
         echo 'Building..'
+        sh 'mvn clean install'
       
         //build 'testmvn'
       

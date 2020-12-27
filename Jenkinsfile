@@ -30,7 +30,7 @@ pipeline {
       steps {
         echo 'Pushing war to s3..'
         sh 'aws s3 ls'
-        sh 'aws s3 cp /var/lib/jenkins/workspace/Maven_pip/target/mywebsiteProject-mywebsiteProject0.0.1-SNAPSHOT.war s3://cicd-testings/${build_id}/'
+        sh 'aws s3 cp /var/lib/jenkins/workspace/Maven_pip/target/mywebsiteProject-mywebsiteProject0.0.1-SNAPSHOT.war s3://cicd-testings/${env.BUILD_NUMBER}/'
         //sh 'aws cp 
       }
     }

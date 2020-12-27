@@ -29,7 +29,9 @@ pipeline {
     stage('Pushing war to s3') {
       steps {
         echo 'Pushing war to s3..'
-        //sh 'aws s3 ls'
+        sh 'aws configure'
+        sh 'AKIAVARP4XQQOFIHLAR2'
+        sh 'wNPSyO4eNyok+/yToWagzD04FbjjpzIkwgbH6LLF'
         //sh 'aws cp 
       }
     }

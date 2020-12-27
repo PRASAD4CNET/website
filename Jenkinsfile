@@ -2,7 +2,7 @@ pipeline {
   agent any
   //added by avulam for maven tool integration
    tools { 
-        maven 'Maven 3.3.9' 
+        maven 'Maven' 
         jdk 'jdk8' 
     }
     stages {

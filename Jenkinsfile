@@ -6,12 +6,12 @@ pipeline {
        // jdk 'jdk8' 
     }
   
-  // triggers added by prasad
+  /* triggers added by prasad
   triggers {
 	//Execute every minute
 cron('* * * * *')
 }
-  // triggers added by prasad end
+  */ triggers added by prasad end
     stages {
         stage ('Initialize') {
             steps {

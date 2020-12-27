@@ -11,7 +11,7 @@ pipeline {
 	//Execute every minute
 cron('* * * * *')
 }
-  */ triggers added by prasad end
+  triggers end prasad*/
     stages {
         stage ('Initialize') {
             steps {

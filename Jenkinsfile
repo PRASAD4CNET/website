@@ -3,7 +3,7 @@ pipeline {
   //added by avulam for maven tool integration
    tools { 
         maven 'Maven' 
-        jdk 'jdk8' 
+       // jdk 'jdk8' 
     }
     stages {
         stage ('Initialize') {

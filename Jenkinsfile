@@ -15,7 +15,7 @@ pipeline {
             }
         }
       //added by avulam for maven tool integration end
-  stages {
+
     stage('Build') {
       steps {
         echo 'Building..'

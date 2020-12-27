@@ -5,6 +5,13 @@ pipeline {
         maven 'Maven' 
        // jdk 'jdk8' 
     }
+  
+  // triggers added by prasad
+  triggers {
+	//Execute every minute
+cron('* * * * *')
+}
+  // triggers added by prasad end
     stages {
         stage ('Initialize') {
             steps {

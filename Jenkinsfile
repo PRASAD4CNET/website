@@ -27,7 +27,7 @@ cron('* * * * *')
       steps {
         echo 'Building..'
 
-        sh 'mvn clean verify sonar:sonar'
+        sh 'mvn clean install sonar:sonar -Dsonar.host.url=http://3.138.202.85:9000 -Dsonar.login=admin -Dsonar.password=admin'
       
         //build 'testmvn'
       

@@ -27,7 +27,7 @@ cron('* * * * *')
       steps {
         echo 'Building..'
 
-        sh 'mvn clean install'
+        sh 'mvn clean verify sonar:sonar'
       
         //build 'testmvn'
       

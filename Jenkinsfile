@@ -27,7 +27,8 @@ cron('* * * * *')
       steps {
         echo 'Building..'
 
-        sh 'mvn clean install sonar:sonar -Dsonar.host.url=http://ec2-18-188-22-235.us-east-2.compute.amazonaws.com:9000 -Dsonar.login=admin -Dsonar.password=admin'
+        //sh 'mvn clean install sonar:sonar -Dsonar.host.url=http://ec2-18-188-22-235.us-east-2.compute.amazonaws.com:9000 -Dsonar.login=admin -Dsonar.password=admin'
+	      sh 'mvn clean install'
       
         //build 'testmvn'
       

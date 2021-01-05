@@ -1,5 +1,5 @@
 pipeline {
-   agent {label 'Jenkins_master'}
+   agent {label 'slave'}
   //added by avulam for maven tool integration
    tools { 
         maven 'Maven' 

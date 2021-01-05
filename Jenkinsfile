@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+   agent { label 'Slave'}
   //added by avulam for maven tool integration
    tools { 
         maven 'Maven' 

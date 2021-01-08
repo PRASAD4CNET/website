@@ -38,7 +38,7 @@ cron('* * * * *')
 	    stage('Pushing nexus') {
 		    steps {
 			    echo 'Pushing war to s3..'
-			    sh 'mvn clean deploy'
+			    sh 'mvn -e clean deploy'
         //sh 'aws s3 ls'
         //sh 'aws s3 cp /var/lib/jenkins/workspace/Maven_pip/target/mywebsiteProject-mywebsiteProject*.war s3://cicd-testings/${BUILD_NUMBER}/'
         //sh 'aws cp 

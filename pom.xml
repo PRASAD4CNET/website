@@ -36,7 +36,7 @@
     <repository>
       <id>nexus</id>
       <name>Releases</name>
-      <url>http://3.131.158.103:8081/repository/maven-releases</url>
+      <url>http://3.131.158.103:8081/repository/maven-avulam</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>

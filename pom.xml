@@ -41,13 +41,13 @@
     <snapshotRepository>
       <id>deployment</id>
       <name>Snapshot</name>
-      <url>http://35.182.174.220:8081/repository/maven-snapshots</url>
+      <url>http://3.96.146.152:8081/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <repositories>
     <repository>
       <id>maven-jenkins-repo</id>
-      <url>http://18.218.206.194:8080/jenkins/plugin/repository/everything/</url>
+      <url>http://3.96.146.152:8081/jenkins/plugin/repository/everything/</url>
     </repository>
  </repositories>
 </project>

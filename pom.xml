@@ -36,18 +36,18 @@
     <repository>
       <id>deployment</id>
       <name>Releases</name>
-      <url>http://3.96.146.152:8081/repository/maven-releases</url>
+      <url>http://10.5.5.7:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
       <id>deployment</id>
       <name>Snapshot</name>
-      <url>http://3.96.146.152:8081/repository/maven-snapshots</url>
+      <url>http://10.5.5.7:8081/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <repositories>
     <repository>
       <id>maven-jenkins-repo</id>
-      <url>http://3.96.146.152:8081/jenkins/plugin/repository/everything/</url>
+      <url>http://10.5.5.7:8081/jenkins/plugin/repository/everything/</url>
     </repository>
  </repositories>
 </project>

@@ -26,10 +26,7 @@ cron('* * * * *')
     stage('Build') {
       steps {
         echo 'Building..'
-	      mvn sonar:sonar \
-  -Dsonar.projectKey=test_project \
-  -Dsonar.host.url=http://3.97.69.238:9000 \
-  -Dsonar.login=ae88e72d47a889eaa8757716193212918f8982e0
+	      mvn sonar:sonar -Dsonar.projectKey=test_project -Dsonar.host.url=http://3.97.69.238:9000 -Dsonar.login=ae88e72d47a889eaa8757716193212918f8982e0
 
        // sh 'mvn clean install'
 	      //sonar:sonar -Dsonar.host.url=http://ec2-18-188-22-235.us-east-2.compute.amazonaws.com:9000 -Dsonar.login=admin -Dsonar.password=admin

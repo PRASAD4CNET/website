@@ -2,7 +2,7 @@ pipeline {
    agent {label 'slave'}
   //added by avulam for maven tool integration
    tools { 
-        maven 'Maven' 
+        maven 'Maven_Home' 
        // jdk 'jdk8' 
     }
   
